@@ -1,0 +1,11 @@
+colors
+Light blue (#E9F1FA), bright blue (#00ABE4), white (#FFFFFF)>>
+Hex codes: #1995AD, #A1D6E2, #F1F1F2
+
+pr_color:#088178
+p_Color:#465b52
+font:@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+#1791c8
+
+<i class="fa-brands fa-opencart"></i>
+<i class="fa-brands fa-opencart" style="color: #1791c8;"></i>

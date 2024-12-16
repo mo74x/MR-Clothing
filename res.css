@@ -1,0 +1,96 @@
+/*ibad-ver*/
+@media screen and (max-width:799px) {
+    .img-slider {
+        padding: 40px;
+    }
+
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        position: fixed;
+        top: 0;
+        padding: 80px 0 0 10px;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.2);
+        transition: all 0.3 ease;
+        right: -300px;
+    }
+
+    #navbar .active {
+        right: 0;
+
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: black;
+        font-size: 25px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        font-size: 24px;
+        color: black;
+        position: absolute;
+        top: 28px;
+        left: 28px;
+    }
+
+    .cart1 {
+        display: none;
+    }
+     #img-slider .slide .first-sec{
+        padding: 0 40px;
+     }
+     #img-slider .slide img{
+        object-position: 30% top 30% right;
+     }
+     #fe1{
+        justify-content: center ;
+     }
+     #fe1 .box{
+        margin: 15px;
+     }
+     #top-sales .product-cards{
+        justify-content: center;
+      
+
+       
+     }
+     #top-sales  .product-cards .product{
+         margin: 15px;
+     }
+     #banner{
+        height: 30vh;
+     }
+     #deals .f-deal{
+        min-width: 100%;
+        margin-bottom: 10px;
+        height: 35vh;
+     }
+     #deals .sec-deal{
+        min-width: 100%;
+        margin-top: 15px;
+        height: 35vh;   
+     }
+}
+/*mobile-ver*/
+@media screen and (max-width: 500){
+    #header{
+        padding: 10px 30px;
+    }
+    
+}
